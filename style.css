@@ -1,0 +1,42 @@
+/*Titre*/
+@font-face {
+	font-family: "Chrismas";
+	src: url("./font/MerryChristmasStar.ttf") format("truetype");
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+/* police  */
+@font-face {
+	font-family: "Bonnet";
+	src: url("./font/BONNET.TTF") format("truetype");
+}
+p {
+	font-family: "Bonnet";
+	color: black;
+	font-size: 13em;
+	z-index: 1;
+	margin-left: -125px;
+	margin-top: -83px;
+}
+/*Tampon*/
+img {
+	height: 15em;
+	width: 16em;
+	margin-top: -2em;
+	z-index: 22;
+}
+div {
+	background-color: transparent;
+	height: 280px;
+	width: 680px;
+	padding-top: 5em;
+	z-index: 0;
+	margin-left: 60px;
+}
+.rotate {
+	transform: rotate(-45deg);
+}
