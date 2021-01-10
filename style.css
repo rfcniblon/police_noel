@@ -1,9 +1,3 @@
-/*Titre*/
-@font-face {
-	font-family: "Chrismas";
-	src: url("./font/MerryChristmasStar.ttf") format("truetype");
-}
-
 .row {
 	display: flex;
 	flex-direction: row;
